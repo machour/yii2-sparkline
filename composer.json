@@ -1,0 +1,22 @@
+{
+    "name": "machour/yii2-sparkline",
+    "description": "Yii2 jQuery Sparkline widget",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","sparkline","charts"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mehdi Achour",
+            "email": "machour@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "bower-asset/bower-jquery-sparkline": "^2.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "machour\\sparkline\\": ""
+        }
+    }
+}
