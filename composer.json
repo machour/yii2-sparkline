@@ -18,5 +18,13 @@
         "psr-4": {
             "machour\\sparkline\\": ""
         }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "asset-installer-paths": {
+            "bower-asset-library": "vendor/bower"
+        }
     }
 }
