@@ -54,7 +54,7 @@ class Sparkline extends Widget
      */
     public function run()
     {
-        echo Html::tag($this->tag, null, ['id' => $this->id]);
+        echo Html::tag($this->tag, null, $this->options);
         $this->registerClientScript();
     }
 
