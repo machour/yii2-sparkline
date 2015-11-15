@@ -23,13 +23,19 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, use the widget this way:
 
 ```php
 <?= \machour\sparkline\Sparkline::widget([
-    'data' => [1, 2, 3],
     'clientOptions' => [
-        'type' => 'pie',
+        'type' => 'bar', 
+        'height' => 20, 
+        'barColor' => '#00a65a',
     ],
+    'data' => [90, 80, 90, -70, 61, -83, 63]
 ]); ?>
 ```
+
+This would produce the following sparkline: ![Sparkline example](docs/main.png)
+
+This documentation is available [online](http://machour.idk.tn/yii/machour/yii2-sparkline)
