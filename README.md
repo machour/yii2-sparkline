@@ -1,6 +1,4 @@
-Yii2 jQuery Sparkline widget
-============================
-Yii2 jQuery Sparkline widget
+The jQuery sparkline assets and widget for Yii2.
 
 Installation
 ------------
